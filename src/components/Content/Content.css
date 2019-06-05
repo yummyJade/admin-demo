@@ -1,0 +1,9 @@
+.right-content{
+    position: absolute;
+    top: 46px;
+    right: 0;
+    bottom: 42px;
+    left: 221px;
+    overflow: hidden;
+    z-index: 1;
+}

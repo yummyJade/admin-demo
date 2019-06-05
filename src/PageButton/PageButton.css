@@ -1,0 +1,40 @@
+.page-button > div{
+    float: left;
+}
+
+.last-page,.next-page {
+    width: 80px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #2486ff;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 14px;
+
+}
+.last-page:hover,.next-page:hover,.pages ul li:hover{
+    cursor: pointer;
+
+}
+.pages ul li{
+    float: left;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+    background-color: #fff;
+    margin-left: 10px;
+}
+
+.pages .selected{
+    background-color: #2486ff;
+    color: #fff;
+    margin-left: 10px;
+}
+.pages ul li:hover{
+    background-color: #2486ff;
+    color: #fff;
+}
